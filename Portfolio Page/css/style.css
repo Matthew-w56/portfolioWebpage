@@ -1,0 +1,389 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+:root {
+	scroll-behavior: auto;
+}
+
+.icon-name {
+	box-sizing: border-box;
+	font-size: 30px;
+	position: relative;
+	top: 3px;
+	color: black;
+}
+
+#main-nav {
+	border-bottom: 1px solid #888;
+	border-top: 1px solid #888;
+	font-family: 'Varela Round';
+	position: fixed;
+	top: -4px;
+	width: 100%;
+	background-color: white;
+	z-index: 10;
+}
+
+#links {
+	justify-content: flex-end;
+}
+
+.navbar-toggler {
+	background-color: #0d6efd;
+	border: 1px solid #444 !important;
+}
+
+/*.screen-size-indicator {
+	font-size: 10px;
+	height: 30px;
+	padding: 15px 80px;
+}*/
+
+.nav-link {
+	border: 1px solid white;
+	border-radius: 4px;
+}
+.nav-link:hover {
+	border: 1px solid #AAA;
+}
+
+.intro {
+	margin: 180px auto;
+	margin-bottom: 55px;
+	width: 80%;
+}
+
+.intro-img {
+	width: 90%;
+	max-width: 420px;
+	min-width: 350px;
+	padding-top: 10px;
+	border-bottom: 1px solid #888;
+	border-top: 1px solid #888;
+	border-radius: 7px;
+	margin-left: 10%;
+}
+
+.intro-text {
+	margin: 30px auto;
+	display: block;
+	width: 100%;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-radius: 7px;
+	min-width: 300px;
+	max-width: 700px;
+}
+
+.center-name {
+	font-size: 60px;
+	border-bottom: 1px solid #AAA;
+	max-width: 80%;
+	margin: 9px auto;
+	color: #0d6efd;
+}
+
+.intro-subtext {
+	margin: 20px auto;
+	width: 80%;
+	font-size: 20px;
+}
+
+.contact-button {
+	font-size: 20px;
+	width: 150px;
+	margin-top: 20px;
+}
+
+.see-resume {
+	margin-top: 19px;
+	margin-left: 5px;
+	font-size: 19px;
+	color: #0d6efd;
+	border: 1px solid white;
+}
+
+.see-resume:hover {
+	color: #0d6efd;
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+
+.indicator {
+	width: 100%;
+	background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 90%);
+	font-size: 18px;
+	margin-bottom: 0px;
+	height: 150px;
+	color: #888888;
+}
+
+.indicator-content {
+	position: relative;
+	top: 40px;
+}
+
+.indicator img {
+	margin-top: -15px;
+	width: 50px;
+}
+
+.card-section {
+	margin-top: 0px;
+	padding-top: 60px;
+	background-color: #F6F6F6;
+	padding-bottom: 130px;
+	position: relative;
+	top: -16px;
+}
+
+.card-section .row {
+	padding-bottom: 40px;
+}
+
+.card {
+	background-color: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-radius: 7px;
+}
+
+.card img {
+	margin-top: 5%;
+}
+
+.gray-strip {
+	background-color: #888;
+	height: 3px;
+}
+
+.card-title {
+	font-size: 1.5em;
+	color: #0d6efd;
+	border-bottom: 1px solid #888;
+}
+
+.card-body .btn {
+	float: right;
+	margin-right: 15px;
+}
+
+#quote-popup {
+	height: 100vh;	
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+}
+
+.dimming-screen {
+	width: 100vw;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	right: 0px;
+	opacity: 0.35;
+	z-index: 1;
+}
+
+.popup-content {
+	position: fixed;
+	z-index: 3;
+	background-color: white;
+	color: black;
+	width: 75vw;
+	height: 70vh;
+	min-height: 600px;
+	margin-left: 12.5vw;
+	margin-top: 15vh;
+	border-top: 3px solid #0d6efd;
+	border-bottom: 3px solid #0d6efd;
+	border-radius: 10px;
+	padding-top: 20px;
+}
+
+.popup-content button {
+	position: relative;
+	float: right;
+	top: -7px;
+}
+
+.popup-title {
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 20px;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-radius: 5px;
+}
+
+.quote-button {
+	margin-top: 30%;
+	height: 15%;
+}
+
+.output-box {
+	border-top: 2px solid #888;
+	border-bottom: 2px solid #888;
+	border-radius: 6px;
+	height: 40vh;
+	margin-top: 5vh;
+}
+
+#text-area {
+	height: 34vh;
+	margin-top: 3vh;
+	width: 80%;
+	margin-left: 10%;
+	text-align: left;
+	user-select: none;
+	font-family: 'Varela Round';
+	font-size: 30px;
+}
+
+footer {
+	background-color: #CCC;
+	min-height: 70px;
+	padding-top: 25px;
+	border-top: 3px solid #0d6efd;
+	padding-bottom: 25px;
+}
+
+footer * {
+	display: inline;
+}
+
+@keyframes inf_animation {
+	from {
+		transform: translate(120px, 50%);
+		color: #0d6efd;
+	}
+	to {
+		transform: translate(-5px, 0);
+		color: black;
+	}
+}
+
+.footer-name {
+	color: #0d6efd;
+	position: relative;
+	animation: inf_animation 3s ease-in
+			   alternate infinite;
+}
+
+.footer-text {
+	margin-top: 12px;
+}
+
+@media (max-width: 1530px) {
+	.card-title {font-size: 1.3em;}
+}
+
+@media (max-width: 1420px) {
+	.center-name {font-size: 49px;}
+	.intro-text h3 {font-size: 1.6rem;}
+	.intro-text h5 {font-size: 1.1rem;}
+	.intro-subtext {width: 100%;}
+	.contact-button {font-size: 17px;  width: 127px;}
+	.see-resume {font-size: 17px;}
+}
+
+@media (max-width: 1360px) {
+	.intro-text {margin-top: 0px;}
+	.card-title {font-size: 1.3em;}
+	.card-body {font-size: 15px;}
+}
+
+@media (max-width: 1199px) {
+	.intro-subtext {font-size: 18px;}
+	.card-body .btn {margin-right: 5px;}
+	.card-title {font-size: 1.7em;}
+}
+
+@media (max-width: 1179px) {
+	.center-name {font-size: 60px;}
+	.intro-subtext {position: relative;  top: -12px;}
+	.buttons {position: relative;  top: -10px;}
+}
+
+@media (max-width: 1083px) {
+	#main-nav {font-size: 0.9em;}
+	.icon-name {font-size: 26px;}
+	.card-body {font-size: 14.5px;}
+	.card-title {font-size: 1.6em;}
+}
+
+@media (max-width: 1013px) {
+	.card-title {font-size: 1.5em;}
+}
+
+@media (max-width: 991px) {
+	/*Total shift and breakage*/
+	/*Switch to Mobile style layout*/
+	#main-nav {text-align: center;  font-size: 1.5em;}
+	#main-nav .btn {font-size: 1em;}
+	#main-nav button.dropdown-toggle {width: 100%;}
+	#main-nav .dropdown-item {font-size: 2em;}
+	#main-nav .dropdown-menu {text-align: center;  width: 70%;  margin-left: 15%;}
+	.navbar-toggler {width: 80px; height: 80px;}
+	.icon-name {font-size: 1.7em;}
+	.intro {margin-top: 200px;}
+	.intro-text {margin-top: -70px;}
+	.intro-img {margin: auto;}
+}
+
+@media (max-width: 962px) {
+	.card-title {font-size: 1.4em;}
+	.card-body {font-size: 14px;}
+}
+
+@media (max-width: 822px) {
+	.center-name {font-size: 3em;}
+	.intro-text h3 {font-size: 1.4rem;}
+	.intro-text h5 {font-size: 1rem;}
+}
+
+@media (max-width: 767px) {
+	.card-title {font-size: 2.2em;}
+	.card-body {font-size: 17.5px;}
+	.card {width: 45vw;}
+}
+
+@media (max-width: 677px) {
+	.card-title {font-size: 2em;}
+}
+
+@media (max-width: 669px) {
+	.intro-text h3 {font-size: 1.3em;}
+	.center-name {font-size: 2.5em;}
+	.intro-subtext {font-size: 17px;}
+	.navbar-toggler {width: 60px; height: 60px;}
+}
+
+@media (max-width: 622px) {
+	.card-title {font-size: 1.8em;}
+}
+
+@media (max-width: 570px) {
+	.icon-name {left: -50px; width: 176px;}
+	.navbar-toggler {display: inline;}
+	.intro {width: 95%;}
+	.intro-text {width: 100%;}
+	.icon-name {font-size: 1.5em;}
+	.card-title {font-size: 1.6em;}
+}
+
+@media (max-width: 513px) {
+	.card-title {font-size: 1.4em;}
+}
+
+@media (max-width: 481px) {
+	.center-name {font-size: 2.1em;}
+	.intro-text h3 {font-size: 1.1rem;}
+	.intro-text h5 {font-size: 0.9rem;}
+	.intro-subtext {font-size: 16px;}
+	.navbar-toggler {width: 50px; height: 50px;}
+	.icon-name {font-size: 1.35em;}
+}
+
+.hidden {
+	display: none;
+}
