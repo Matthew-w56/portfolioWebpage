@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
+:root {
+	--pri: #3284ff;
+}
+
+* {
+	color: #666;
+}
+
 .icon-name {
 	box-sizing: border-box;
 	font-size: 30px;
@@ -24,7 +32,7 @@
 }
 
 .navbar-toggler {
-	background-color: #0d6efd;
+	background-color: var(--pri);
 	border: 1px solid #444 !important;
 }
 
@@ -67,30 +75,23 @@ footer {
 	min-height: 70px;
 	margin-top: 100px;
 	padding-top: 100px;
-	border-top: 3px solid #0d6efd;
+	border-top: 3px solid var(--pri);
 	padding-bottom: 25px;
+}
+
+footer {
+	background-color: #CCC;
+	min-height: 70px;
+	padding-top: 25px;
+	border-top: 3px solid var(--pri);
+	padding-bottom: 25px;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
 }
 
 footer * {
 	display: inline;
-}
-
-@keyframes inf_animation {
-	from {
-		transform: translate(120px, 50%);
-		color: #0d6efd;
-	}
-	to {
-		transform: translate(-5px, 0);
-		color: black;
-	}
-}
-
-.footer-name {
-	color: #0d6efd;
-	position: relative;
-	animation: inf_animation 3s ease-in
-			   alternate infinite;
 }
 
 .footer-text {
